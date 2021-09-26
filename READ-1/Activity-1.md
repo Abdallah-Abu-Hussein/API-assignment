@@ -27,9 +27,9 @@ Theres More than one way to look at API types
 
 1. **APIs for databases**, Database APIs allow an application to communicate with a database management system. Developers work with databases by writing queries to extract data, change tables, and so on.
 
-2. **APIs for operating systems**, This set of APIs specifies how programs interact with operating system resources and services. Every operating system has its own set of APIs, such as the Windows API or the Linux API (kernel–user space API and kernel internal API), for example.
+2. **APIs for operating systems**, Those APIs define how applications deal with OS services and resources. Any OS, has its own set of APIs, such as the Windows API or the Linux API (kernel–user space API and kernel internal API).
 
-3. **APIs for the web**, This is the most popular API class. Web APIs allow for the transfer of machine-readable data and functionality across web-based systems that follow a client-server design. These APIs mostly use Hypertext Transfer Protocol to transmit requests from web applications and answers from servers (HTTP).
+3. **APIs for the web**, This is the most popular API class. Web APIs allow for the transfer of machine-readable data and functionality across web-based systems that follow a client-server design. To convey requests from web applications and responses from servers, these APIs usually employ Hypertext Transfer Protocol (HTTP)..
 
 ### **The benefits of APIs :**
 
@@ -53,7 +53,7 @@ Theres More than one way to look at API types
 
 API | SDK
 ------------ | -------------
-Application programming interface (API) is a term that refers to a set of tools that An API allows interactions between different systems, either it is used as a standalone service or as part of an SDK. This is accomplished by enabling third-party programmers to use its proprietary code. The API solution's developers can then allow their own consumers to utilize the service or services supplied by the API solution indirectly. | The term SDK refers to a software development kit. The SDK, sometimes known as a devkit, is a collection of software development tools for a certain platform, comprising building blocks, debuggers, and, in some cases, a framework or group of code libraries, including a collection of operating system-specific functions (OS).
+Application programming interface (API) is a term that refers to a set of tools that An API allows interactions between different systems, either it is used as a standalone service or as part of an SDK. This is accomplished by enabling third-party programmers to use its proprietary code. The API method's programmers then can allow their own customers to use the API solution's service or services indirectly. | A software development kit is referred to as an SDK. The SDK, sometimes known as a devkit, is a collection of software development tools for a certain platform, comprising building blocks, debuggers, and, in some cases, a framework or group of code libraries, including a collection of operating system-specific functions (OS).
 
 ```
 At least one API is frequently included in an SDK. These two contribute in separate ways, yet they can and do collaborate.
@@ -76,3 +76,19 @@ When using anything digital or connect to the Internet security risks may and wi
 * **insufficient logging and monitoring:** Missing security vital information logs or a lack of adequate log format, context, storage, security, and quick reaction to detect an event or breach are examples of insufficient logging and monitoring. An organization may be caught off guard by a breach that goes unnoticed, resulting in irreversible regulatory, financial, and legal consequences.
 
 ## **• Determine a range of APIs for a particular platform that covers a group of users.**
+
+
+
+
+
+## **sources For Activity one :**
+
+1. https://searchapparchitecture.techtarget.com/tip/What-are-the-types-of-APIs-and-their-differences 
+2. https://en.wikipedia.org/wiki/API
+3. https://www.altexsoft.com/blog/engineering/what-is-api-definition-types-specifications-documentation/
+4. https://www.insightssuccess.com/5-benefits-of-api-for-developers-application-programming-interface/
+5. https://www.ibm.com/cloud/blog/sdk-vs-api
+6. https://www.redhat.com/en/topics/security/api-security
+7. https://techbeacon.com/security/critical-api-security-risks-10-best-practices
+8. https://blog.shiftleft.io/api-security-101-excessive-data-exposure-a730d351fbae
+9. https://outpost24.com/blog/What-are-security-misconfigurations-and-how-to-prevent-them#:~:text=Misconfiguration%20normally%20happens%20when%20a,dangerous%20open%20pathways%20for%20hackers.
