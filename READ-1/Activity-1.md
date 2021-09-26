@@ -5,13 +5,13 @@
 
 ##  **• Explain API types and the benefits of APIs, and analyse the differences between API and SDK.**
 
-An application program interface (API) is a set of routines, protocols, and
-tools for building software applications.
-Basically, an API specifies how software components should interact.
-Additionally, APIs are used when programming graphical user interface (GUI)
+A set of processes, protocols, and tools for creating software applications is known as an application program interface (API).
+In a nutshell, an API defines how software components should communicate with one another.
+APIs are also utilized for creating graphical user interfaces (GUI)
 components.
-A good API makes it easier to develop a program by providing all the
-building blocks. A programmer then puts the blocks together.
+By giving all of the necessary information, a good API makes it easy to create a software.
+constructing elements, The blocks are then put together by a coder.
+
 
 ### API Types :
 
@@ -20,12 +20,12 @@ Theres More than one way to look at API types
 
 |    Private APIs   | Partner APIs |  Public APIs   |
 | :---        |    :----:   |                  ---: |
-| These (API's)are intended to improve an organization's software and products. These APIs can be used by in-house engineers or freelancers to merge a corporation's IT systems or applications, as well as to create new systems or customer-facing apps that use current systems. Even if applications are made public, the interface is only accessible to individuals that work directly with the API publisher. The private strategy gives a business complete control over API usage.  |    A partner API is a tool for facilitating business-to-business transactions that is only accessible to a restricted group of outside programmers or API users. For example, if a company wishes to share customer information discreetly with outside CRM businesses, it can utilize a partnership API to link the internal customer data system with those external partners no other API use is allowed.Access to such APIs is limited to partners with certain permissions and licenses. As a result, partner APIs typically provide more robust authentication, authorisation, and security features. In addition, most businesses do not directly monetize APIs; rather, partners are compensated for their services rather than through API usage. |      Any outside programmer or company can utilize a public API since it is open and available. A company that develops and offers a public API will have a business plan that includes sharing its apps and data with other companies Authentication and authorisation are usually moderate in public APIs. An organization may also try to monetize the API by charging a per-call fee to use the public API.  |
+| These (API's)are intended to improve an organization's software and products. These APIs can be used by in-house engineers or freelancers to merge a corporation's IT systems or applications, as well as to create new systems or customer-facing apps that use current systems. Although if apps are made public, only those who directly work with the API distributor have access to the interface. A company can use the private approach to have total control over API usage.  |    A partner API is a tool for facilitating business-to-business transactions that is only accessible to a restricted group of outside programmers or API users. For example, if a company wishes to share customer information discreetly with outside CRM businesses, it can utilize a partnership API to link the internal customer data system with those external partners no other API use is allowed.Access to such APIs is limited to partners with certain permissions and licenses. As a result, partner APIs typically provide more robust authentication, authorisation, and security features. In addition, most businesses do not directly monetize APIs; rather, partners are compensated for their services rather than through API usage. |      Any outside programmer or company can utilize a public API since it is open and available. A company that develops and offers a public API will have a business plan that includes sharing its apps and data with other companies Authentication and authorisation are usually moderate in public APIs. An corporation might potentially try to commercialize the API by charging a charge for each request made to the public API.  |
 |    |         |       |
 
 **Second By API Usage :**
 
-1. **APIs for databases**, Database APIs allow an application to communicate with a database management system. Developers work with databases by creating queries to get information, modify tables, and so on.
+1. **APIs for databases**, Database APIs allow an application to communicate with a database management system. Developers work with databases by writing queries to extract data, change tables, and so on.
 
 2. **APIs for operating systems**, This set of APIs specifies how programs interact with operating system resources and services. Every operating system has its own set of APIs, such as the Windows API or the Linux API (kernel–user space API and kernel internal API), for example.
 
@@ -67,13 +67,12 @@ SDKs are the entire package. They give everything needed to create new software 
 
 When using anything digital or connect to the Internet security risks may and will occur for sure, when talking about API’s there's many security risks associated with them, and there is ways to mitigate those risks, depending on the API type and use, famous security risks associated with API’s:
 
-*	**Broken object level**: Broken Object Level Authorization occurs when an application fails to verify that the user making the request has the necessary permissions to access another user's resource.
+* **Broken object level**: Broken Object Level Authorization occurs when an application fails to verify that the user making the request has the necessary permissions to access another user's resource.
 *	**user- and function-level authorization:** The API relies on the client to use user level or admin level APIs as appropriate. Attackers figure out the “hidden” admin API methods and invoke them directly.
 
-*	**excessive data exposure:** When an API client application does not analyze the data it receives before providing the data to the software's user, excessive data exposure occurs. When APIs deliver sensitive data, the client application should filter the information before passing it on to the client.
-*	**security misconfiguration**: Misconfiguration occurs when a system or database administrator or developer fails to correctly setup an application's, website's, desktop's, or server's security architecture, resulting in dangerous open routes for hackers. 
+* **excessive data exposure:** When an API client application does not analyze the data it receives before providing the data to the software's user, excessive data exposure occurs. When APIs deliver sensitive data, the client application should filter the information before passing it on to the client.
+* **security misconfiguration**: Misconfiguration occurs when a system or database administrator or developer fails to correctly setup an application's, website's, desktop's, or server's security architecture, resulting in dangerous open routes for hackers.
 
 * **insufficient logging and monitoring:** Missing security vital information logs or a lack of adequate log format, context, storage, security, and quick reaction to detect an event or breach are examples of insufficient logging and monitoring. An organization may be caught off guard by a breach that goes unnoticed, resulting in irreversible regulatory, financial, and legal consequences.
-
 
 ## **• Determine a range of APIs for a particular platform that covers a group of users.**
