@@ -3,7 +3,7 @@
 
 ![](https://content.altexsoft.com/media/2019/06/https-lh6-googleusercontent-com-_nyclktg8po_wx5-.png)
 
-##  **• Explain API types and the benefits of APIs, and analyse the differences between API and SDK.**
+## **• Explain API types and the benefits of APIs, and analyse the differences between API and SDK.**
 
 A set of processes, protocols, and tools for creating software applications is known as an application program interface (API).
 In a nutshell, an API defines how software components should communicate with one another.
@@ -12,10 +12,9 @@ components.
 By giving all of the necessary information, a good API makes it easy to create a software.
 constructing elements, The blocks are then put together by a coder.
 
+### API Types
 
-### API Types :
-
-Theres More than one way to look at API types 
+Theres More than one way to look at API types
 **First one API By realise Police :**
 
 |    Private APIs   | Partner APIs |  Public APIs   |
@@ -27,7 +26,7 @@ Theres More than one way to look at API types
 
 1. **APIs for databases**, Database APIs allow an application to communicate with a database management system. Developers work with databases by writing queries to extract data, change tables, and so on.
 
-2. **APIs for operating systems**, Those APIs define how applications deal with OS services and resources. Any OS, has its own set of APIs, such as the Windows API or the Linux API (kernel–user space API and kernel internal API).
+2. **APIs for operating systems**, Those APIs define how applications deal with OS services and resources. Any OS, has its own set of internal APIs, Like the Windows API or the Linux API and macOS SDK that provide many APIs.
 
 3. **APIs for the web**, This is the most popular API class. Web APIs allow for the transfer of machine-readable data and functionality across web-based systems that follow a client-server design. To convey requests from web applications and responses from servers, these APIs usually employ Hypertext Transfer Protocol (HTTP)..
 
@@ -46,8 +45,8 @@ Theres More than one way to look at API types
 
 * **Automation** : This is the first and greatest obvious advantage of using API. Computers will perform the task instead of people, reducing overall time. APIs allow developers to handle work more efficiently and change processes in such a manner so they become more effective in less time.
 * **Efficiency**: When you have access to the API, it is simple to post fresh material quickly. The technology instantly publishes the material and makes it available across all channels. As a result, the content is readily shared with a large audience. In comparison to traditional marketing, this function takes less time and costs less money.
-* **Adaptation**:Any system must be updated frequently, and Custom API facilitates this process. It consumes a lot of effort and money for several firms to implement a new system update. If you include this technology into the system, By Using APIs ,data migration will be improved, and information may be evaluated more thoroughly. If a different interface had been used, the results would never have been as good as API.
-* **More Scope**:An application layer can assist to transfer information to other systems and provide services to new consumers by introducing API into the system. This interface is fascinating because it allows developers to build a tailored service for new consumers.
+* **Adaptation**: Any system must be updated frequently, and Custom API facilitates this process. It consumes a lot of effort and money for several firms to implement a new system update. If you include this technology into the system, By Using APIs ,data migration will be improved, and information may be evaluated more thoroughly. If a different interface had been used, the results would never have been as good as API.
+* **More Scope**: An application layer can assist to transfer information to other systems and provide services to new consumers by introducing API into the system. This interface is fascinating because it allows developers to build a tailored service for new consumers.
 
 ### **API vs SDK**
 
@@ -65,30 +64,39 @@ SDKs are the entire package. They give everything needed to create new software 
 
 ## **• The using of APIs may introduce some security concerns, assess these concerns.**
 
-When using anything digital or connect to the Internet security risks may and will occur for sure, when talking about API’s there's many security risks associated with them, and there is ways to mitigate those risks, depending on the API type and use, famous security risks associated with API’s:
+When using anything digital or connected to the Internet security risks may and will occur for sure, when talking about API’s there's many security risks associated with them, and there is ways to mitigate those risks, depending on the API type and use, famous security risks associated with API’s:
 
 * **Broken object level**: Broken Object Level Authorization occurs when an application fails to verify that the user making the request has the necessary permissions to access another user's resource.
-*	**user- and function-level authorization:** The API relies on the client to use user level or admin level APIs as appropriate. Attackers figure out the “hidden” admin API methods and invoke them directly.
+* **user- and function-level authorization:** The API relies on the client to use user level or admin level APIs as appropriate. Attackers figure out the “hidden” admin API methods and invoke them directly.
 
 * **excessive data exposure:** When an API client application does not analyze the data it receives before providing the data to the software's user, excessive data exposure occurs. When APIs deliver sensitive data, the client application should filter the information before passing it on to the client.
 * **security misconfiguration**: Misconfiguration occurs when a system or database administrator or developer fails to correctly setup an application's, website's, desktop's, or server's security architecture, resulting in dangerous open routes for hackers.
 
 * **insufficient logging and monitoring:** Missing security vital information logs or a lack of adequate log format, context, storage, security, and quick reaction to detect an event or breach are examples of insufficient logging and monitoring. An organization may be caught off guard by a breach that goes unnoticed, resulting in irreversible regulatory, financial, and legal consequences.
 
+### **How to mitigate those risks ?**
+
+This is a big topic but since security is not our topic , I will list the four most important things when it comes to API security :
+
+1. **Encryption :** All data, particularly personally identifying information, must be encrypted using a mechanism like Transport Layer Security (TLS). Developers should additionally demand signatures to verify that data is only decrypted and modified by authorized users.
+2. **Authentication :**You must always identify who is contacting your APIs, at the very least via an API key or basic access authentication (user/password). This will make hacking your system more difficult. Don't engage in conversation with strangers - just don't.
+3. **OAuth & OpenID Connect :**OAuth is an useful technique for managing API access that enables third-party services to obtain data without revealing user credentials. Access control for authentication and authorization is one of the most essential components of API security. To ensure that only authorized users have access to sensitive data, OAuth employs a token-based authorization system.
+4. **zero-trust philosophy :**The focus of security in a zero-trust model (ZTM) changes from location to specific people, assets, and services. What's inside is trusted, and what's outside isn't. This is the perimeter security concept. Because the network is no longer as straightforward as it once was, a ZTM makes sense.
+
 ## **• Determine a range of APIs for a particular platform that covers a group of users.**
 
-
-
-
+I'm going to talk about microsoft APIs, Microsoft is one of the biggest companies in the world, they built a lot of APIs , more than (39) Big web APIs ,led by its Bing Maps API, Also not forget tens of Windows OS APIs , if You use any microsoft product you probably interact with tens APIs daily without you knowing that,.....continue later
 
 ## **sources For Activity one :**
 
-1. https://searchapparchitecture.techtarget.com/tip/What-are-the-types-of-APIs-and-their-differences 
-2. https://en.wikipedia.org/wiki/API
-3. https://www.altexsoft.com/blog/engineering/what-is-api-definition-types-specifications-documentation/
-4. https://www.insightssuccess.com/5-benefits-of-api-for-developers-application-programming-interface/
-5. https://www.ibm.com/cloud/blog/sdk-vs-api
-6. https://www.redhat.com/en/topics/security/api-security
-7. https://techbeacon.com/security/critical-api-security-risks-10-best-practices
-8. https://blog.shiftleft.io/api-security-101-excessive-data-exposure-a730d351fbae
-9. https://outpost24.com/blog/What-are-security-misconfigurations-and-how-to-prevent-them#:~:text=Misconfiguration%20normally%20happens%20when%20a,dangerous%20open%20pathways%20for%20hackers.
+1. <https://searchapparchitecture.techtarget.com/tip/What-are-the-types-of-APIs-and-their-differences>
+2. <https://en.wikipedia.org/wiki/API>
+3. <https://www.altexsoft.com/blog/engineering/what-is-api-definition-types-specifications-documentation/>
+4. <https://www.insightssuccess.com/5-benefits-of-api-for-developers-application-programming-interface/>
+5. <https://www.ibm.com/cloud/blog/sdk-vs-api>
+6. <https://www.redhat.com/en/topics/security/api-security>
+7. <https://techbeacon.com/security/critical-api-security-risks-10-best-practices>
+8. <https://blog.shiftleft.io/api-security-101-excessive-data-exposure-a730d351fbae>
+9. <https://outpost24.com/blog/What-are-security-misconfigurations-and-how-to-prevent-them#:~:text=Misconfiguration%20normally%20happens%20when%20a,dangerous%20open%20pathways%20for%20hackers>.
+10. <https://techbeacon.com/security/critical-api-security-risks-10-best-practices>
+11. 
